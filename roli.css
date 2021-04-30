@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: 350%;
+    text-decoration: blink;
+}
+
+.card{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border-collapse: separate;
+}
+
+.card:hover{
+    background-image: url("hatt.jpg");
+    background-position: center;
+    background-size: cover;
+    box-shadow: 4px 4px 10px rgb(0, 140, 255);
+}
+
+.btn{
+    background-color: black;
+    border: white 3px solid;
+}
+
+.btn:hover{
+    background-image: url("kep.jpg");
+    background-position: center;
+    background-size: 200px;
+    color: black;
+    border: black;
+    box-shadow: 6px 6px 10px black;
+
+}
+
+.menusor:hover{
+    background-color: black;
+    border: white 3px solid;
+}
+
+video{
+    border: 4px white solid;
+    border-radius: 10px;
+    position: static;
+}
+
+.kicsi{
+    width: 60px;
+    border-radius: 20px;
+    margin-top: 100px;
+    position: static;
+}
+
+@media  screen and (max-width: 575)
+{
+    .card{
+        width: 100px;
+    }
+}
